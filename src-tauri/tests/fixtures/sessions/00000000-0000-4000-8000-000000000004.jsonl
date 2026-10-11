@@ -1,0 +1,3 @@
+{"type":"user","timestamp":"2026-10-04T10:00:00.000Z","cwd":"/tmp/proj/alpha","message":{"content":"inteiro"}}
+{"type":"assistant","timestamp":"2026-10-04T10:00:05.000Z","cwd":"/tmp/proj/alpha","requestId":"a","message":{"content":[]}}
+{"type":"user","timestamp":"2026-10-04T10:00:09.000Z","cwd":"/tmp/pr

@@ -1,0 +1,18 @@
+brAIn — dependências para a etapa 3 (Fedora 44)
+Rode os blocos na ordem, em um terminal normal.
+
+# 1) Pacotes do sistema (pede senha de sudo)
+sudo dnf install -y webkit2gtk4.1-devel openssl-devel curl wget file libappindicator-gtk3-devel librsvg2-devel libxdo-devel
+sudo dnf group install -y "development-tools"
+
+# 2) Rust via rustup (instala em ~/.cargo, sem sudo)
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+
+# 3) Carregar o cargo na sessão atual (ou abra um terminal novo)
+. "$HOME/.cargo/env"
+
+# 4) Conferir
+rustc --version
+cargo --version
+node --version
+rpm -q webkit2gtk4.1-devel openssl-devel librsvg2-devel libxdo-devel

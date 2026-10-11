@@ -1,0 +1,32 @@
+[package]
+name = "brain"
+version = "0.1.0"
+description = "brAIn — launcher visual de projetos para o Claude Code"
+authors = ["theshinig"]
+license = "Apache-2.0"
+edition = "2024"
+
+[lib]
+name = "brain_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+walkdir = "2"
+dirs = "6"
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
+strip = true

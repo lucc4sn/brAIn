@@ -1,0 +1,67 @@
+/* Tokens do Design System brAIn (design/extraido-telas/project/ds/brain/tokens.css). Fonte única. */
+/* brAIn — tokens gerados de tokens.json. Tema escuro apenas. */
+:root {
+  --bg-canvas: #07070A;
+  --bg-window: #0B0B10;
+  --bg-sidebar: rgba(22, 22, 30, 0.62);
+  --bg-panel: #13131B;
+  --bg-elevated: #1A1A24;
+  --bg-hover: rgba(255, 255, 255, 0.05);
+  --bg-active: rgba(255, 255, 255, 0.09);
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-strong: rgba(255, 255, 255, 0.14);
+  --text-primary: #F2F2F7;
+  --text-secondary: #B4B4C0;
+  --text-tertiary: #8A8A99;
+  --text-disabled: #5C5C6A;
+  --accent: #8DA9C4;
+  --accent-hover: #A6BDD3;
+  --accent-soft: rgba(141, 169, 196, 0.16);
+  --on-accent: #0B0B10;
+  --success: #6FBF8E;
+  --warning: #E0B25A;
+  --danger: #E07A72;
+  --cat-projetos: #8DA9C4;
+  --cat-educacao: #86B38A;
+  --cat-clientes: #D98B6B;
+  --cat-documentacoes: #D4B26A;
+  --cat-agentes: #6FB0A8;
+  --cat-diario: #BE8FA0;
+  --node-neutral: #6B7080;
+  --node-root: #C9CCD6;
+  --tl-close: #FF5F57;
+  --tl-minimize: #FEBC2E;
+  --tl-maximize: #28C840;
+  --bg-legend: rgba(19, 19, 27, 0.72);
+  --bg-graph-center: #0D0D14;
+  --scrim: rgba(0, 0, 0, 0.5);
+  --warning-soft: rgba(224, 178, 90, 0.08);
+  --accent-line: rgba(141, 169, 196, 0.4);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --radius-window: 14px;
+  --radius-lg: 12px;
+  --radius-md: 8px;
+  --radius-sm: 6px;
+  --radius-pill: 999px;
+  --focus-ring: 0 0 0 2px #07070A, 0 0 0 4px #8DA9C4;
+  --shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.55);
+  --window-alpha: 0.9;
+  --titlebar-height: 40px;
+  --sidebar-width: 260px;
+  --panel-width: 340px;
+  --tree-row-height: 28px;
+  --button-height: 36px;
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --font-ui: Inter, "Cantarell", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Source Code Pro", ui-monospace, monospace;
+}
+
+@media (prefers-reduced-motion: reduce) { :root { --dur-fast: 0ms; --dur-base: 0ms; } }

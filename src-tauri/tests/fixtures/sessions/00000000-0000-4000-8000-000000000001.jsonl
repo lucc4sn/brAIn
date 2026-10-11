@@ -1,0 +1,16 @@
+{"type":"mode","mode":"normal"}
+{"type":"user","timestamp":"2026-10-01T10:00:00.000Z","cwd":"/tmp/proj/alpha","sessionId":"00000000-0000-4000-8000-000000000001","gitBranch":"main","isMeta":true,"isSidechain":false,"message":{"role":"user","content":"<local-command-caveat>meta</local-command-caveat>"}}
+{"type":"user","timestamp":"2026-10-01T10:00:05.000Z","cwd":"/tmp/proj/alpha","sessionId":"x","gitBranch":"main","isMeta":false,"isSidechain":false,"message":{"role":"user","content":"<command-name>/init</command-name>"}}
+{"type":"user","timestamp":"2026-10-01T10:01:00.000Z","cwd":"/tmp/proj/alpha","gitBranch":"main","message":{"role":"user","content":"  Primeiro   prompt\n real  "}}
+{"type":"assistant","timestamp":"2026-10-01T10:01:10.000Z","cwd":"/tmp/proj/alpha","gitBranch":"HEAD","requestId":"r1","uuid":"u1","message":{"role":"assistant","content":[{"type":"thinking","thinking":"..."}]}}
+{"type":"assistant","timestamp":"2026-10-01T10:01:11.000Z","cwd":"/tmp/proj/alpha","gitBranch":"HEAD","requestId":"r1","uuid":"u2","message":{"role":"assistant","content":[{"type":"text","text":"resposta"}]}}
+{"type":"assistant","timestamp":"2026-10-01T10:01:12.000Z","cwd":"/tmp/proj/alpha","gitBranch":"HEAD","requestId":"r1","uuid":"u3","message":{"role":"assistant","content":[{"type":"tool_use","id":"t1","name":"Read","input":{}}]}}
+{"type":"user","timestamp":"2026-10-01T10:01:20.000Z","cwd":"/tmp/proj/alpha","gitBranch":"main","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"t1","content":"saida"}]}}
+{"type":"assistant","timestamp":"2026-10-01T10:01:30.000Z","cwd":"/tmp/proj/alpha","gitBranch":"main","requestId":"r2","uuid":"u4","message":{"role":"assistant","content":[{"type":"text","text":"outra"}]}}
+{"type":"user","timestamp":"2026-10-01T10:02:00.000Z","cwd":"/tmp/proj/alpha","isSidechain":true,"message":{"role":"user","content":"prompt de subagente"}}
+{"type":"assistant","timestamp":"2026-10-01T10:02:10.000Z","cwd":"/tmp/proj/alpha","isSidechain":true,"requestId":"r9","uuid":"u9","message":{"role":"assistant","content":[{"type":"text","text":"sub"}]}}
+{"type":"user","timestamp":"2026-10-01T10:05:00.000Z","cwd":"/tmp/proj/alpha","gitBranch":"main","message":{"role":"user","content":[{"type":"text","text":"Segundo prompt"}]}}
+{"type":"ai-title","aiTitle":"Primeiro título"}
+{"type":"future-thing","x":1}
+{"type":"ai-title","aiTitle":"Título final da sessão"}
+{"type":"last-prompt","lastPrompt":"Segundo prompt"}
